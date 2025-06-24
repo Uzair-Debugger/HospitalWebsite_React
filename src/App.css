@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+.fira-text {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
+.about-us-title {
+  position: relative;
+  display: inline-block;
+  padding-left: 48px;
+}
+.about-us-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 40px;
+  height: 4px;
+  background: #4fb8bd;
+  border-radius: 2px;
+  transform: translateY(-50%);
+}
+
